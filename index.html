@@ -5,11 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <!-- CSS way 1 style tag:
+    <style>
+        body{
+            color: red;
+        }
+    </style> -->
+
+    <!-- Third way of doing CSS: external links -->
+    <link href="styles.css" rel="stylesheet" />
+
 </head>
 
 <body>
-    <h1>Manan's component library</h1>
-    <p>I am attending neog.camp and i want to make a library which would make all my projets look and consistent.</p>
+    <h1 id="lib-header">Manan's component library</h1>
+    <!-- style="color:red" -->
+    <p class="para">I am attending neog.camp and i want to make a library which would make all my projets look and consistent.</p>
 
     <hr>
 
@@ -25,7 +37,7 @@
     <h2>@containers</h2>
 
     <h3>fluid container</h3>
-    <div>This is a fluid container and it will go till the end if the page</div>
+    <div class="para">This is a fluid container and it will go till the end if the page</div>
 
     <h3>center container</h3>
     <div>This is a centered container and it will go till specified width</div>
