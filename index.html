@@ -54,24 +54,25 @@
     <h2>@lists</h2>
 
     <h3>unordered list</h3>
+    <p>This list will not have bullet</p>
 
-    <ul>
+    <ul class="list-non-bullet">
         <li>Item One</li>
         <li>Item Two</li>
         <li>Item Three</li>
     </ul>
 
-    <h3>unordered lnlie list</h3>
+    <h3 class="list-non-bullet">unordered lnlie list</h3>
 
     <ul>
-        <li>Inline Item One</li>
-        <li>Inline Item Two</li>
-        <li>Inline Item Three</li>
+        <li class="list-item-inline">Inline Item One</li>
+        <li class="list-item-inline">Inline Item Two</li>
+        <li class="list-item-inline">Inline Item Three</li>
     </ul>
 
     <h3>reverse ordered list</h3>
 
-    <ol>
+    <ol reversed>
         <li>milk</li>
         <li>bread</li>
         <li>vegetables</li>
@@ -81,17 +82,17 @@
 
     <h2>@nav</h2>
 
-    <nav>
-        <div>iAmBrand</div>
-        <ul>
-            <li>
-                <a href="/">home</a>
+    <nav class="navigation container">
+        <div class="nav-brand">iAmBrand</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link" href="/">home</a>
             </li>
-            <li>
-                <a href="/">products</a>
+            <li class="list-item-inline">
+                <a class="link" href="/">products</a>
             </li>
-            <li>
-                <a href="/">about</a>
+            <li class="list-item-inline">
+                <a class="link" href="/">about</a>
             </li>
         </ul>
     </nav>
