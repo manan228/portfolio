@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- CSS way 1 style tag:
+    <style>
+        body{
+            color: red;
+        }
+    </style> -->
+
+    <!-- Third way of doing CSS: external links -->
+    <link href="/styles.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <h1>Manan's component library</h1>
+    <!-- style="color:red" -->
+    <p>I am attending neog.camp and i want to make a library which would make all my projets look and consistent.</p>
+
+    <hr>
+
+    <h2>@typography</h2>
+
+    <h1>This is biggest hading</h1>
+    <h2>This is second biggest heading</h2>
+    <p>Let me show you the normal text. This is free flowing and it will wrap at the end like a paragraph.</p>
+    <small>This is relatively small text</small>
+
+    <hr>
+
+    <h2>@containers</h2>
+
+    <h3>fluid container</h3>
+    <div class="container">This is a fluid container and it will go till the end if the page</div>
+
+    <h3>center container</h3>
+    <div class="container container-center">This is a centered container and it will go till specified width</div>
+
+    <hr>
+
+    <h2>@links</h2>
+
+    <a class="link link-primary" href="/">Primary link</a>
+    <a class="link link-secondary" href="/">Secondary link</a>
+
+    <hr>
+
+    <h2>@lists</h2>
+
+    <h3>unordered list</h3>
+    <p>This list will not have bullet</p>
+
+    <ul class="list-non-bullet">
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+    </ul>
+
+    <h3 class="list-non-bullet">unordered lnlie list</h3>
+
+    <ul>
+        <li class="list-item-inline">Inline Item One</li>
+        <li class="list-item-inline">Inline Item Two</li>
+        <li class="list-item-inline">Inline Item Three</li>
+    </ul>
+
+    <h3>reverse ordered list</h3>
+
+    <ol reversed>
+        <li>milk</li>
+        <li>bread</li>
+        <li>vegetables</li>
+    </ol>
+
+    <hr>
+
+    <h2>@nav</h2>
+
+    <nav class="navigation container">
+        <div class="nav-brand">iAmBrand</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">products</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">about</a>
+            </li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <h2>@header</h2>
+
+    <header class="hero">
+        <img class="hero-img" src="images/hero.svg">
+        <h1 class="hero-heading">Manan Shah the <span class="heading-inverted">web developer</span></h1>
+    </header>
+
+    <hr>
+
+    <h2>@section</h2>
+    <section class="section">
+        <div class="container container-center"><h1>white scetion</h1>
+            <P>This will have white background</P>
+        </div>
+    </section>
+
+    <section class="section ow">
+        <div class="container container-center"><h1>off white section</h1>
+            <P>This will have gray background</P>
+        </div>   
+    </section>
+
+    <hr>
+
+    <h2>@footer</h2>
+
+    <footer class="footer">
+        <div class="footer-header">Some small heading inside footer</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline"><a class="link" href="/">Socia One</a></li>
+            <li class="list-item-inline"><a class="link" href="/">Social Two</a></li>
+            <li class="list-item-inline"><a class="link" href="/">Social Three</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
