@@ -118,6 +118,10 @@ hr {
     text-align: center;
 }
 
+.section .container p {
+    text-align: justify;
+}
+
 .ow {
     background-color: var(--off-white);
 }
@@ -144,4 +148,3 @@ hr {
 .footer ul {
     padding-inline-start: 0px;
 }
-
