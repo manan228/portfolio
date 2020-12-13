@@ -75,7 +75,7 @@ hr {
 }
 
 .navigation .nav-pills {
-    text-align: right;
+    text-align: center;
 }
 
 .navigation .link {
@@ -96,6 +96,7 @@ hr {
     max-width: 350px;
     display: block;
     margin: auto;
+
 }
 
 .hero .hero-heading {
